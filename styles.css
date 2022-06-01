@@ -13,11 +13,6 @@ body {
     background-color: #172737;
 }
 
-img {
-    width: 200px;
-    height: 200px;
-}
-
 header {
     width: 700px;
     margin: 0 auto;
@@ -84,6 +79,52 @@ a {
 
 .header-image {
     width: 55%;
+    height: 250px;
     border-radius: 10px;
 }
 
+.info-container {
+    background-color: azure;
+}
+
+.info-image-container {
+    width: 600px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #1f2937;
+}
+
+.image-container-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.individual-image-container {
+    width: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.individual-image-container p {
+    margin: 0;
+}
+
+.individual-image-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
