@@ -157,3 +157,62 @@ a {
     color: #172737;
     font-weight: bold;
 }
+
+.pop-up-container {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.pop-up {
+    background-color: #3882f6;
+    width: 700px;
+    padding: 30px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pop-up-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 0 20px 0 40px;
+    line-height: 13px;
+}
+
+.pop-up-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.pop-up-paragraph {
+    margin-top: 3px;
+}
+
+.pop-up-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop-up-button button {
+    color: white;
+    border: 3px solid white;
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 8px 30px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px; 
+}
